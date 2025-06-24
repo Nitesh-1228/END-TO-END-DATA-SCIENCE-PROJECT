@@ -18,23 +18,10 @@ This task meets the requirement of building a deployed API/web app for model int
 Steps Performed
 Step 1: Data Preprocessing & Model Training
 
-The Pima Indians Diabetes Dataset was used.
-
-Zero values in medical features like Glucose, BloodPressure, and BMI were treated as missing and imputed using the mean strategy.
-
-Features were scaled using StandardScaler to ensure proper model performance.
-
-A Random Forest Classifier was trained on the cleaned data and saved using joblib for later deployment.
+The Pima Indians Diabetes Dataset was used.Zero values in medical features like Glucose, BloodPressure, and BMI were treated as missing and imputed using the mean strategy.Features were scaled using StandardScaler to ensure proper model performance.A Random Forest Classifier was trained on the cleaned data and saved using joblib for later deployment.
 
 Step 2: Web App with Flask
-
-A Flask web application (app.py) was created to serve the model.
-
-The user interface was designed using HTML (templates/index.html) to collect user inputs.
-
-Inputs are processed and scaled before being passed to the trained model for prediction.
-
-The result (Diabetic / Not Diabetic) is displayed on the same web page.
+A Flask web application (app.py) was created to serve the model.The user interface was designed using HTML (templates/index.html) to collect user inputs.Inputs are processed and scaled before being passed to the trained model for prediction.The result (Diabetic / Not Diabetic) is displayed on the same web page.
 
 How to Run Locally
 Install Dependencies
