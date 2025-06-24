@@ -57,3 +57,10 @@ Open Browser
 Visit http://127.0.0.1:5000/ and enter details in the form to get predictions.
 
 # OUTPUT
+
+![Image](https://github.com/user-attachments/assets/df169083-95dc-4eee-b0c8-24f9a0591b46)
+
+![Image](https://github.com/user-attachments/assets/9ce902ac-c1ce-4bfb-ad48-69bf15ffe642)
+
+![Image](https://github.com/user-attachments/assets/bf901c0d-6a9b-4f55-88da-ebe25e0b1a4c)
+
